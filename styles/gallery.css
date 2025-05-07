@@ -1,10 +1,17 @@
+/*
+width: 100%: ocupa toda a largura disponível.
+max-width: 80rem: mas nunca ultrapassa 80rem (algo como um limite de largura).
+padding: cria um espaço interno nas bordas (em cima/baixo 2.5rem, nas laterais 2rem).
+margin-inline: auto: centraliza essa seção na horizontal.
+*/
+
 section.gallery {
     width: 100%;
     max-width: 80rem;
     padding: 2.5rem 2rem;
     
     margin-inline: auto;
-
+    
     header{
         text-align: center; 
     }
